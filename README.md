@@ -21,6 +21,7 @@ Developed by: Sanchita Sandeep
 RegisterNumber: 24900172 
 */
 ```
+```
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
@@ -54,7 +55,7 @@ print(f"Accuracy: {accuracy:.3f}")
 cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(cm)
-
+```
 
 ## Output:
 ![prediction of iris species using SGD Classifier](sam.png)
